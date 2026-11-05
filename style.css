@@ -1,0 +1,117 @@
+body {
+    background-color: gray;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    font-size: bold;
+}
+
+.tableau {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.tableau th {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}
+
+.tableau td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+.bnt {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.bnt:hover {
+    background-color: darkblue;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 80px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+
+/* la partie formulaire de  */
+body {
+    background-color: #f1f3f5;
+    font-family: Arial, sans-serif;
+}
+
+.formulaire {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #222;
+}
+
+.description {
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.succes {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
